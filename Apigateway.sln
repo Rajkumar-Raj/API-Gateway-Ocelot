@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apigateway", "Apigateway.csproj", "{12EB0E0A-AC1D-4D3D-9A03-0252C0F7758F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apigateway", "Apigateway\Apigateway.csproj", "{12EB0E0A-AC1D-4D3D-9A03-0252C0F7758F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceService", "..\FinanceService\FinanceService.csproj", "{63E273AF-BB9A-4F65-8C1A-60E6818550E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceService", "FinanceService\FinanceService.csproj", "{63E273AF-BB9A-4F65-8C1A-60E6818550E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService", "..\InventoryService\InventoryService.csproj", "{D39AF32B-49A9-4901-A821-628A8BE5F544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService", "InventoryService\InventoryService.csproj", "{D39AF32B-49A9-4901-A821-628A8BE5F544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB290193-8912-4621-92EB-51E64DDA14CD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
