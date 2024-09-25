@@ -5,3 +5,7 @@
 /Apigateway/.vs
 /Apigateway/obj
 /Apigateway/bin
+/FinanceService/bin/Debug/net8.0
+/FinanceService/obj
+/InventoryService/bin/Debug/net8.0
+/InventoryService/obj
