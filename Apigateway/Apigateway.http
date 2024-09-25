@@ -1,0 +1,6 @@
+@Apigateway_HostAddress = http://localhost:5219
+
+GET {{Apigateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
